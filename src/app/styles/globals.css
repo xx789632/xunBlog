@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input{
+    @apply px-4 py-2 border border-gray-300 rounded-md
+}
+button{
+    @apply px-4 py-2 bg-blue-500 text-white rounded-md flex-center gap-2
+}
+.error-message{
+    @apply text-red-500 text-[12px]
+}
+.w-sm {
+    @apply w-[320px];
+}
+.header {
+    @apply bg-gray-800 text-white  flex-between py-4
+}
+
+.flex-center {
+    @apply flex justify-center items-center
+}
+.flex-between {
+    @apply flex justify-between items-center
+}
+
+.flex-col-g2 {
+    @apply flex flex-col gap-2
+}
+.flex-col-g4{
+    @apply flex flex-col gap-4
+}
+
+.flex-col-g6 {
+    @apply flex flex-col gap-6
+}
